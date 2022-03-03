@@ -14,28 +14,28 @@ const Wrapper=styled.div`
 
 const Slider = () => {
 
-    const [slideIndex,setslideIndex] = useState(0);
+    // const [slideIndex,setslideIndex] = useState(0);
 
-    const handleClick = (direction)=>{
+    // const handleClick = (direction)=>{
 
-        if(direction==="left"){
-            setslideIndex(slideIndex>0?slideIndex-1:2);
-        }
-        else{
-            setslideIndex(slideIndex<2?slideIndex+1:0);
-        }
+    //     if(direction==="left"){
+    //         setslideIndex(slideIndex>0?slideIndex-1:2);
+    //     }
+    //     else{
+    //         setslideIndex(slideIndex<2?slideIndex+1:0);
+    //     }
 
-    }
+    // }
 
     
   return (
     <div className={styles.Container}>
-        <div className={styles.ArrowLeft}direction ="left" onClick={()=>handleClick("left")}>
+        {/* <div className={styles.ArrowLeft}direction ="left" onClick={()=>handleClick("left")}>
             <ArrowLeftOutlined/>
-        </div>
+        </div> */}
         <div className={styles.Wrapper}>
         {sliderItems.map(item=>(
-            <div className={styles.Slide1}>
+            <div className={styles.Slide1} item={item} key={item.id}>
                 <div className={styles.ImgContainer}>
                     <img className={styles.Image}src={item.img}>
                     </img>
@@ -89,9 +89,9 @@ const Slider = () => {
                 </div>
             </div> */}
         </div>
-        <div className={styles.ArrowRight}direction ="right"onClick={()=>handleClick("right")}>
+        {/* <div className={styles.ArrowRight}direction ="right"onClick={()=>handleClick("right")}>
             <ArrowRightOutlined/>
-        </div>
+        </div> */}
         
       
     </div>
