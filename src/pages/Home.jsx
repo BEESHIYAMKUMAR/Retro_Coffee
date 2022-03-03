@@ -6,6 +6,7 @@ import Newsletter from '../components/Newsletter'
 import Products from '../components/Products'
 import Slider from '../components/Slider'
 import Footer from '../components/Footer'
+import Favourites from '../components/Favourites'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Navbar/>
       <Slider/>
       <Categories/>
+      <Favourites/>
       <Products/>
       <Newsletter/>
       <Footer/>
