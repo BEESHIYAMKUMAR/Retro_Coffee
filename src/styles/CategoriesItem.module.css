@@ -1,17 +1,17 @@
 .Container{
    flex: 1;
    margin: 3px;
-   height: 110vh;
+   height: 100vh;
    position: relative;
    display: flex;
-   padding: 10px;
+   padding: 5px;
    margin-bottom: 10px;
 }
 .Image{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    margin-block: 20px;
+    /* margin-block: 20px; */
 }
 .Info{
     position: absolute;

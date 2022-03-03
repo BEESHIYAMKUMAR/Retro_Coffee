@@ -2,7 +2,7 @@ export const sliderItems=[
     {
         id:1,
         img: "https://www.ephotozine.com/articles/7-top-creative-ways-to-use-coffee-in-your-photos-34367/images/190115_Cooph-Challenge-yourself-with-one-pbject-1.jpg",
-        title:"MORNING OFFER",
+        title:"Let us make your day!",
         desc:"DON'T GIVE OUT YOUR MORNING COFFEE!  GET FLAT 25% OFF ON CAPPUCCINO.",
     },
     // {

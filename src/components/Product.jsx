@@ -23,6 +23,7 @@ const Product = ({item}) => {
               <FavoriteBorderOutlined/>
           </div>
           
+          
       </div>
       
     </div>
