@@ -1,0 +1,101 @@
+.Container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+     /* overflow: hidden; */
+}
+.ArrowLeft{
+    width: 50px;
+    height: 50px;background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    margin:auto;
+    cursor: pointer;
+    opacity: 0.5;
+    z-index: 2;
+
+}
+.ArrowRight{
+    width: 50px;
+    height: 50px;background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 10px;
+    margin:auto;
+    cursor: pointer;
+    opacity: 0.5;
+    z-index: 2;
+
+}
+.Wrapper{
+    height: 100px;
+    display: flex;
+    transition: all 1.5s ease;
+    /* transform: translateX(${(props)=>props.slideIndex*-100}vw); */
+}
+
+.Slide1{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    
+}
+.Slide2{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+.Slide3{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+.ImgContainer{
+    height: 100%;
+    flex: 1;
+}
+.Image{
+    height: 80%;
+}
+
+.InfoContainer{
+    flex: 1;
+    padding: 50px;
+}
+
+.Title{
+    font-family: 'Cedarville Cursive';
+    font-size: 70px;
+
+}
+.Desc{
+    font-size: 20px;
+    margin: 50px 0px;
+    font-weight: 500;
+    letter-spacing: 3px;;
+
+}
+.Button{
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    cursor: pointer;
+}
