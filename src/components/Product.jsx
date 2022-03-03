@@ -10,6 +10,7 @@ const Product = ({item}) => {
         
       <div className={styles.Circle}/>
       <img className={styles.Image} src={item.img}></img>
+      <h5 className={styles.Title}>{item.title}</h5>
       <div className={styles.Info}>
           
           <div className={styles.Icon}>

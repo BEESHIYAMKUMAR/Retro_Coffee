@@ -1,5 +1,5 @@
 import { Badge } from '@material-ui/core'
-import { LocalCafe, Search } from '@material-ui/icons'
+import {  Search, ShoppingCartOutlined } from '@material-ui/icons'
 import React from 'react'
 import styles from '../styles/Navbar.module.css'
 
@@ -33,7 +33,7 @@ const Navbar = () => {
          </div>
          <div className={styles.Menu}>
            <Badge badgeContent={4} color="primar">
-             <LocalCafe/>
+             <ShoppingCartOutlined/>
            </Badge>
          </div>
          
